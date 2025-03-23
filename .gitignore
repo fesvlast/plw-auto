@@ -7,4 +7,6 @@ allure-report/
 allure-results/
 ./.vscode/
 /screens
+cucumber-report.html
+cucumber-screen.png
 
