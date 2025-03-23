@@ -1,0 +1,44 @@
+[
+    {
+        "email": "fesvlast@gmail.com",
+        "password": "Testing123",
+        "orderData": {
+            "productName": "IPHONE 13 PRO",
+            "numberOfAddedItems": "1",
+            "itemPrice": "231500",
+            "status": "In Stock",
+            "totalPrice": "231500"
+        },
+        "cardDetails": {
+            "email": "fesvlast@gmail.com",
+            "cardNumber": "4542 9931 9292 2294",
+            "CVV": "345",
+            "cardName": "Test card",
+            "expireMonth": "01",
+            "expireYear": "2026",
+            "coupon": "rahulshettyacademy",
+            "country": "India"
+        }
+    },
+    {
+        "email": "fesvlast@gmail.com",
+        "password": "Testing123",
+        "orderData": {
+            "productName": "ADIDAS ORIGINAL",
+            "numberOfAddedItems": "1",
+            "itemPrice": "31500",
+            "status": "In Stock",
+            "totalPrice": "31500"
+        },
+        "cardDetails": {
+            "email": "fesvlast@gmail.com",
+            "cardNumber": "4542 9931 9292 2294",
+            "CVV": "345",
+            "cardName": "Test card",
+            "expireMonth": "01",
+            "expireYear": "2026",
+            "coupon": "rahulshettyacademy",
+            "country": "India"
+        }
+    }
+]

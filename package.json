@@ -1,0 +1,29 @@
+{
+    "name": "plw-auto",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "npx playwright test tests/api/WebApiPart1.spec.js --headed --debug",
+        "regression": "npx playwright test",
+        "webTests": "npx playwright test --grep @Web",
+        "apiTest": "npx playwright test --grep @API",
+        "allure": "allure generate ./allure-results --clean",
+        "cucumber-regression": "npx cucumber-js features --parallel 2 --exit --format html:cucumber-report.html"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@playwright/test": "^1.51.0",
+        "@types/node": "^22.13.10",
+        "typescript": "^5.8.2"
+    },
+    "dependencies": {
+        "@cucumber/cucumber": "^11.2.0",
+        "allure": "^3.0.0-beta.10",
+        "allure-playwright": "^3.2.0",
+        "exceljs": "^4.4.0"
+    }
+}
